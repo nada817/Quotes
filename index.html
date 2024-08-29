@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
+ 
+</head>
+<body>
+    <div class="background vh-100 ">
+
+ 
+    <div class="container py-5 ">
+        <div class="row py-4  d-flex justify-content-center text-center ">
+            <!-- header  -->
+            <div class="col-sm-12 col-lg-8 ">
+                <h1 class="text-center text-capitalize ">
+                    Quote of the day 
+                 </h1>
+                 <p class="my-5 text-center">
+                    press the button below to receive a random quote!
+                 </p>
+            </div>
+            <div class="col-sm-12 col-lg-8 ">
+                <button onclick="Quote()" class="btnn rounded-1 ">
+                  New Quote
+                </button>
+            </div>
+            <!-- end header  -->
+             <!-- Quotes  -->
+
+             <div class="col-sm-12 col-lg-8 py-3" >
+               
+               <p id="quotes">
+
+               </p>
+               <p id="author-name" class="author">
+
+               </p>
+            </div>
+          
+        </div>
+    </div>
+   
+</div>
+  
+    <script src="./main.js"></script>
+</body>
+</html>
